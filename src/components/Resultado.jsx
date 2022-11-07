@@ -7,11 +7,11 @@ const Resultado = ({resultado, setMonedas}) => {
         setMonedas({})
     }
     return (
-    <div className='h-90 backdrop-blur-md w-1/2 mx-auto mt-12 rounded-2xl pb-10'>
+    <div className='h-90 backdrop-blur-md sm:w-full md:w-1/2 mx-auto mt-12 rounded-2xl pb-10'>
         <div className='flex justify-center'>
             <img src={`https://cryptocompare.com/${IMAGEURL}`} alt='Logo cripto' className='w-40' />
         </div>
-        <h3 className='text-white text-center text-xl p-4 font-semibold'>Precio actual: {PRICE}</h3>
+        <h3 className='text-white text-center text-xl sm:text-md p-4 font-semibold'>Precio actual: {PRICE}</h3>
         <h3 className='text-white text-center text-xl p-4 font-semibold'>Precio más alto del dia: {HIGHDAY}</h3>
         <h3 className='text-white text-center text-xl p-4 font-semibold'>Precio más bajo del dia: {LOWDAY}</h3>
         <h3 className='text-white text-center text-xl p-4 font-semibold'>Variación en las últimas 24hs: {CHANGEPCT24HOUR}%</h3>

@@ -47,9 +47,9 @@ const Form = ({setMonedas}) => {
 
 
     return (
-    <div className='h-90 backdrop-blur-md max-w-screen-md sm:w-full mx-auto mt-12 rounded-2xl'>
+    <div className='h-90 backdrop-blur-md sm:w-full md:w-1/2 mx-auto mt-12 rounded-2xl'>
         <form 
-            className='flex flex-col mb-10 m-w-2/3'
+            className='flex flex-col mb-10 sm:w-full'
             onSubmit={handleSubmit}    
         >
             {error && <p className='bg-red-600 text-white text-center p-4 text-xl font-semibold uppercase w-2/3 mx-auto mt-7 rounded-md'>Todos los campos son obligatorios!</p>}
