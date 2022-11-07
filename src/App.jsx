@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-[url("./assets/criptos-fondo.jpg")] min-h-screen bg-cover bg-center opacity-80'>
+      <div className='bg-[url("./assets/criptos-fondo.jpg")] min-h-full bg-cover bg-center opacity-80'>
         <h1 className='text-center pt-10 font-semibold text-5xl uppercase text-gray-300'>Cotizador de cryptos</h1>
         
         {(Object.keys(monedas).length > 0) ? <Resultado resultado={resultado} setMonedas={setMonedas} /> : <Form setMonedas={setMonedas} />}

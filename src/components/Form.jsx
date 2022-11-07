@@ -47,7 +47,7 @@ const Form = ({setMonedas}) => {
 
 
     return (
-    <div className='h-90 backdrop-blur-md max-w-screen-md sm:w-3/4 mx-auto mt-12 rounded-2xl'>
+    <div className='h-90 backdrop-blur-md max-w-screen-md sm:w-full mx-auto mt-12 rounded-2xl'>
         <form 
             className='flex flex-col mb-10 m-w-2/3'
             onSubmit={handleSubmit}    

@@ -13,7 +13,7 @@ const useSelectMonedas = (label, opciones) => {
           value= {state}
           onChange={e => setState(e.target.value)}
           >
-          <option value='' className='text-center'>--Seleccione--</option>
+          <option value='' className='text-center sm:w-4/5'>--Seleccione--</option>
           {opciones.map(opcion => (
            <option
             key={opcion.id}
